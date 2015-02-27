@@ -1,0 +1,39 @@
+[
+	{
+		"id": 1,
+		"name":"twiines",
+		"url": "http://boiling-tundra-5536.herokuapp.com/",
+		"description":"timeline based microblogging. Share updates of projects in a clean and simple fashion.",
+		"image": "assets/project_logos/twiines.svg",
+		"spec": "PostgreSQL *formerly MongoDB*, Rails 4",
+		"gitUrl":"#"
+	},
+	{
+		"id": 2,
+		"name":"fist five",
+		"image": "assets/project_logos/wireframe.svg",
+		"url": "http://fistfive.herokuapp.com/",
+		"description": "allows instructors to gather feedback from a classroom lesson using simple metrics. While following along, each student rates their comprehension of a subject on a scale of zero to five.",
+		"spec": "PostgreSQL, Rails 4, D3.js",
+		"gitUrl":"#"
+	},
+	{
+		"id": 3,
+		"name": "'bevmaster'",
+		"image": "assets/project_logos/swag_drop.svg",
+		"url": "http://bevmaster.herokuapp.com",
+		"description": "a social platform where users can upload and vote on designs for a beverage company's labels.",
+		"spec": "PostgreSQL, Rails 4, Snap.svg, D3.js",
+		"gitUrl":"#"
+	},
+	{
+		"id": 4,
+		"name": "tic tac toe",
+		"image": "assets/project_logos/tic_tac_toe.svg",
+		"url": "http://hamiltonk.com/testbed/tictactoe/",
+		"description": "a simple tic-tac-toe game.",
+		"spec": "Angular.js",
+		"gitUrl":"#"
+	}		
+
+]

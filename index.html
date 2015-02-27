@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html ng-app="hamiltonKApp">
+<head>
+	<meta charset="utf-8">
+	<link href='http://fonts.googleapis.com/css?family=Lato:100,400,800' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/application.css">
+	<script src="js/angular.js"></script>
+	<script src="js/angular-route.js"></script>
+
+	<script src="js/app.js"></script>
+	<script src="js/controllers.js"></script>
+	<script src="js/hamiltonKCtrl.js"></script>
+	<title>Hamilton K. - Web Developer</title>
+	
+</head>
+<body ng-controller="hamiltonKCtrl">
+<div class="social-links">
+
+					<a href="http://github.com/hamitron"><div class="social-icon git">
+						</div></a>
+					<a href="http://www.linkedin.com/in/hamiltonqkarl/"><div class="social-icon linkedin">
+						</div></a>		
+					<a href="http://vimeo.com/hamitron"><div class="social-icon vimeo">
+						</div></a>
+					<a href="http://www.twitter.com/hamitron"><div class="social-icon twitter">
+						</div></a>
+					<a href="http://undergroundsoundtrack.com"><div class="social-icon tumblr">
+						</div></a>
+					<a href="http://www.instagram.com/hamitron"><div class="social-icon instagram">
+						</div></a>
+
+
+					
+				</div>
+
+
+
+<div class="container">
+	
+	
+
+
+
+	<div class="row navigation">
+		<div class="col-md-12">
+			<h2><a class="navlink" href="#/contact">contact </a> <a class="navlink" href="#/projects">projects </a> <a class="navlink" href="#/bio">bio </a> <a class="navlink" href="assets/HamiltonQKarl_Resume.pdf"> resume (pdf)</a></h2>
+		</div>
+		
+	</div>
+		<div ng-view></div>
+
+</div>
+<div style=" text-align: center;">&copy; 2014</div>
+</body>
+
+</html>

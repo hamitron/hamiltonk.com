@@ -1,0 +1,81 @@
+body {
+	background-color: lightblue;
+}
+div {
+	text-align: center;
+	font-family: 'Anton', sans-serif;
+}
+h1 {
+	font-size: 35px;
+}
+.titlebox {
+	line-height: 80%;
+}
+.outerContainer{
+	margin-top: 3%;
+}
+.boardContainer {
+	border-radius: 15px;
+	border-bottom: 5px solid darkgrey;
+	background-color: lightgrey;
+	width: 410px;
+	height: 410px;
+	margin: 0 auto;
+}
+
+.gameBox {
+	display: inline-block;
+	border:solid darkgrey;
+	border-bottom: 5px solid darkgrey;
+	border-radius: 25px 25px 25px 25px;
+	padding: 0px;
+	width: 120px;
+	height: 120px;
+	background-color: rgba(211, 255,249,1);
+}
+.playerX	{
+	background:url("../svg/x_1.svg");
+	background-color: white;
+	border: 2px solid darkgrey;
+	border-bottom:5px solid darkgrey;
+}
+
+.playerY {
+	background:url("../svg/o.svg");
+	background-color: white;	
+	border: 2px solid darkgrey;
+	border-bottom:5px solid darkgrey;
+}
+.sidebar {
+	border:1px solid blue;
+	float:left;
+
+}
+
+.titlebox {
+	text-align: center;
+	margin:0 auto;
+	background-color: lightgrey;
+	border-bottom: 5px solid darkgrey;
+}
+
+.coverAll {
+	position: absolute;
+	padding-top: 10%;
+	top: 10%;
+	left: 20%;
+	border: 5px solid lightgrey;
+	border-radius: 15px;
+	width: 60%;
+	height: 60%;
+	background-color: white;
+	z-index: 1;
+	opacity: 1;
+}
+.row {
+	margin: 2px;
+	width: 30%;
+	height:30%;
+	display: inline-block;
+	padding: 0px;
+}

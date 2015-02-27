@@ -1,0 +1,37 @@
+<!DOCTYPE html> 
+<html lang="En">
+	<head>
+		<meta charset="UTF-8">
+		<title>Rock Paper Scissors</title>
+		<link href='http://fonts.googleapis.com/css?family=Julius+Sans+One' rel='stylesheet' type='text/css'>
+		<link href="normalize.css" rel="stylesheet" type="text/css"/>
+		<link rel="stylesheet" href="stylesheet.css" type="text/css"/>
+		<script type="text/javascript" src="rps.js"></script>
+	</head>
+
+	<body>
+		<header>
+		<h1>ROCK PAPER SCISSORS</h1>
+	</header>
+			<div class="shape-container">
+				<div class="shape-choice" id="rock" onclick="mouseOverColor()">
+				<img src="svg/rock.svg" alt="rock"/>
+				</div>
+				<div class="shape-choice" id="paper" onclick="mouseOverColor1()">
+				<img src="svg/paper.svg" alt="paper"/>
+				</div>
+				<div class="shape-choice" id="scissors" onclick="mouseOverColor2()">
+				<img src="svg/scissors.svg" alt="paper"/>
+				</div>
+			</div>
+			<div class = "winner">
+				<div class = "whoWins">
+					<p>Who wins?</p>
+				</div>
+				<div class="playText">
+				<p onclick="playAgain()">Reset</p>
+				</div>
+			</div>
+	</body>
+	
+</html>

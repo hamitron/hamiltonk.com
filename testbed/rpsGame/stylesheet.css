@@ -1,0 +1,79 @@
+
+body {
+	}
+	
+div {
+
+}
+
+header {
+	text-align: center;
+	font-family: 'Julius Sans One', sans-serif;
+	font-size: 30px;
+	padding: 0px 20px 0px 00px;
+	letter-spacing: 15px;
+	}
+
+.shape-container {
+	height: 300px;
+	width:610px;
+	margin:0 auto;
+	
+}
+.whoWins {
+	text-align: center;
+	font-size: 30px;
+}
+.playText {
+	color: rgba(0,0,0,0.5);
+	text-align: center;
+	font-size: 20px;
+}
+
+.shape-choice {
+	width: 100px;
+	height: 150px;
+	float:left;
+	margin:0 50px;
+	border-radius: 60px 10px;
+}
+#rock {
+	background-color: rgba(0,0,0,0);
+
+}
+#paper {
+	background-color: rgba(0,0,0,0);
+}
+#scissors {
+	background-color: rgba(0,0,0,0);
+}
+#rock:hover{
+	background-color: rgba(191,255,255,0.6);
+}
+#paper:hover {
+	background-color: rgba(191,255,255,0.6);
+}
+#scissors:hover {
+	background-color: rgba(191,255,255,0.6);
+}
+
+@media (max-width: 500px) {
+	header {
+		font-size:15px;
+		padding 0px;
+	}
+	.shape-container {
+		width: 100%
+		height:auto;
+	}
+	.shape-choice {
+		padding: 5px;
+		width: 200px;
+		height: 250px;
+		float: left;
+		clear: both;
+  }
+  	.playText {
+  		font-size: 30px;
+  	}
+}
