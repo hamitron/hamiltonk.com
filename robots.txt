@@ -1,0 +1,11 @@
+User-agent: Jeeves
+Disallow: /
+User-agent: msnbot
+Disallow: /
+User-agent: psbot
+Disallow: /
+User-agent: *
+Crawl-delay: 5.00
+Disallow: /*.pdf$
+Disallow: /*.Pdf$
+Disallow: /*.PDF$
