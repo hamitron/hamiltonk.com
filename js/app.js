@@ -1,10 +1,6 @@
-var hamiltonKApp = angular.module('hamiltonKApp', [
-'ngRoute',
-'hamiltonKControllers'
-	]);
+var hamiltonKApp = angular.module('hamiltonKApp', ['ngRoute']);
 
-hamiltonKApp.config(['$routeProvider',
-  function($routeProvider) {
+hamiltonKApp.config(['$routeProvider', function($routeProvider) {
     $routeProvider.
       when('/contact', {
         templateUrl: 'partials/info.html',

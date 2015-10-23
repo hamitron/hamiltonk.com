@@ -63,6 +63,16 @@ $scope.projects = [
 		"description": "Enter an object and its location. Voila!  ",
 		"spec": "Angular.js consuming Rails API",
 		"gitUrl":"#"
+	},
+	{
+		"id": 7,
+		"name": "Showfax",
+		"projectUrl":"#/showfax",
+		"image": "",
+		"url": "http://www.showfax.com/",
+		"description": "Subscirption service for downloading screenplay sides, empowering working actors across the country",
+		"spec": "Ruby on Rails, Puma Server, NGINX for Static Assets, Microsoft SQL DB, Ubuntu",
+		"gitUrl":"#"
 	}			
 
 ]
@@ -71,13 +81,13 @@ $scope.bio = [
 	{
 		"id": 1,
 		"header":"SUMMARY",
-		"text":"Hamilton Quincy Karl is a junior full-stack web developer and recent graduate of the Web Development Immersive program at General Assembly.  He is actively looking to join a collaborative team environment and improve upon his foundation of development knowledge.  Hamilton has extensive experience in graphic and web design dating back to Photoshop version 4.0.  He created his first domain-name level website (not just a geocities page) in elementary school, and has held interest ever since.  He graduated cum laude in 2009 from Southern Oregon University with a Bachelor of Arts in Communication, focus in Video Production / Convergent Media."
+		"text":"Hamilton Quincy Karl is a full-stack web developer, currently employed developing Ruby on Rails applications. He has extensive experience in graphic and web design, constructing his first domain-level website in elementary school.  In 2014 he completed the Web Development Immersive Program at General Assembly in Santa Monica, CA. In 2009 he graduated cum laude from Southern Oregon University with a Bachelor of Arts in Communication, focus in Video Production / Convergent Media."
 
 	},
 	{
 		"id": 2,
 		"header":"PROFICIENCIES",
-		"text":"Ruby on Rails, AngularJS, PostgreSQL, MongoDB, Javascript, HTML5, CSS, D3.js, Snap.svg, Version Control, Pivotal Tracker, Cloud Platforms (AWS, Heroku, Firebase), Building/ Consuming APIs, Agile Web Development, Test Driven Development, Adobe Photoshop, Premiere, Illustrator, After Effects, & InDesign."
+		"text":"Ruby on Rails, AngularJS, NGINX, PostgreSQL, MongoDB, Microsoft SQL Server, Javascript, HTML5, CSS, D3.js, Git, Cloud Platforms (AWS, Heroku, Firebase), Building/ Consuming APIs, Agile Web Development, Test Driven Development, Adobe Photoshop, Premiere, Illustrator, After Effects, & InDesign."
 	},
 	{
 		"id":3,

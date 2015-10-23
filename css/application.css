@@ -30,7 +30,16 @@ body {
 
 
 }
+#headshot {
+	border-radius: 100%;
+	max-width: 8em;
+	vertical-align: middle;
+	display: inline-block;
+}
+
 #hamilton {
+	vertical-align: middle;
+	display: inline-block;
 	font-size: 600%;
 }
 .project-image {
