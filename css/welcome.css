@@ -2,7 +2,7 @@
 body {
 
 	background-color: #241718;
-	color: white;
+	color: black;
 
 }
 .orange-box {
@@ -22,7 +22,7 @@ body {
 .hamiltonk {
 	text-align: right;
 	font-family: consolas;
-	color: white;
+	color: black;
 	width: 50%;
 	margin: 10px 10px 20px 5px;
 	float: right;

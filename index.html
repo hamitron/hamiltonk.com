@@ -7,15 +7,14 @@
 	<link rel="stylesheet" href="css/application.css">
 	<script src="js/angular.js"></script>
 	<script src="js/angular-route.js"></script>
-
 	<script src="js/app.js"></script>
 	<script src="js/hamiltonKCtrl.js"></script>
 	<script src="js/controllers.js"></script>
 	<title>Hamilton K. - Web Developer</title>
-	
+	<!-- Hey there stranger -->
 </head>
 <body ng-app="hamiltonKApp">
-
+<div class="container-fluid">
 <div class="social-links" ng-controller="hamiltonKCtrl">
 	<a href="http://github.com/hamitron">
 		<div class="social-icon git"></div>
@@ -36,17 +35,16 @@
 		<div class="social-icon instagram"></div>
 	</a>
 </div>
-
+</div>
 <div class="container">
 	<div class="row navigation">
 		<div class="col-md-12">
-			<h2>
+			<h3>
 				<a class="navlink" href="#/contact">contact </a>
 				<a class="navlink" href="#/projects">projects </a> 
 				<a class="navlink" href="#/bio">bio </a> 
-			</h2>
+			</h3>
 		</div>
-		
 	</div>
 		<div ng-view></div>
 
