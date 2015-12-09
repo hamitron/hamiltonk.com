@@ -75,9 +75,15 @@ ul.b {
 
 a {
 	color:lightgrey;
+	text-decoration: none;
 }
+
 a:hover {
 	color:#fb715f;
+	text-decoration: none;
+}
+
+a:active, a:visited {
 	text-decoration: none;
 }
 
@@ -104,6 +110,7 @@ a:hover {
 .navlink {
 	padding-right: 5px;
 	margin-left: 30px;
+	text-decoration: none;
 }
 
 .logo {
@@ -159,5 +166,7 @@ a:hover {
 	background-position:0%;
 	
 }
-
+.project-title {
+	text-decoration-line: underline;
+}
 
